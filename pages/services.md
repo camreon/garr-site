@@ -5,8 +5,6 @@ section: "{{name}}"
 intro_paragraph: |-
   services
 
-
-
-  ![](/assets/img/uploads/triple-spiral-symbol-heavystroked.svg.png)
+  ![](/assets/img/uploads/logo.png)
 ---
 offered
