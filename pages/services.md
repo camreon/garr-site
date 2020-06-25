@@ -3,7 +3,7 @@ layout: page
 title: Services
 section: "{{name}}"
 intro_paragraph: |-
-  services
+  services 2
 
   ![](/assets/img/uploads/logo.png)
 ---
