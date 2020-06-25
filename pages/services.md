@@ -1,9 +1,10 @@
 ---
 layout: page
 title: Services
+permalink: /services
 section: "{{name}}"
 intro_paragraph: |-
-  services 2
+  
 
   ![](/assets/img/uploads/logo.png)
 ---
