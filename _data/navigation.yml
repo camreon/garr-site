@@ -1,9 +1,9 @@
 # specify main menu items here
 
 items:
-  - name: Home
+  - name: DeBord Counseling
     url: /
   - name: Services
-    url: /services.html
+    url: /services
   - name: Resouces
-    url: /resources.html
+    url: /resources

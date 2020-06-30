@@ -1,13 +1,14 @@
 {% assign navurl = page.url | remove: 'index.html' %}
 
 <ul>
+  <li class="logo"><img src="{{ site.url }}/assets/img/uploads/logo.png"></li>
+
 {% for item in site.data.navigation.items %}
-  <li>
-    <a href="{{ item.url }}"{% if item.url == navurl %} data-current="current page"{% endif %}>{{ item.name }}</a>
-    {% if item.subitems %}
-      {% include navigation.html navigation=item.subitems %}
-    {% endif %}
-  </li>
+  <a href="{{ item.url }}">
+    <li {% if item.url == navurl %} data-current="current page"{% endif %}>{{ item.name }}</li>
+  </a>
+  {% if item.subitems %}
+    {% include navigation.html navigation=item.subitems %}
+  {% endif %}
 {% endfor %}
 </ul>
-

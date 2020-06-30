@@ -9,17 +9,19 @@
 body {
   height: 100vh;
   display: grid;
-  grid-template-rows: auto 1fr auto;
-  grid-template-columns:
-    [full-start] minmax(1rem, 1fr)
-    [main-start] minmax(0, 52rem) [main-end]
-    minmax(1rem, 1fr) [full-end];
-}
+  grid-template-columns: 170px 1.2fr;
+  grid-gap: 1em;
+  grid-template-rows: 1fr;
+  grid-template-areas: "One two";
+  background-color: $grey-bg-color;
+  padding: 15px;
+  color: black;
+  margin: 0;
+  font-size: 1.7rem;
 
-// by default, make any new children of body to span the full track
-body > * {
-  grid-column: full;
-  padding: 2rem 1rem;
+  @media (max-width: 535px) {
+    display: block;
+  }
 }
 
 // header, the first grid row
@@ -56,49 +58,53 @@ header > h1 {
   }
 }
 
-// main menu, is a grid item
-header > nav {
-  @media screen and (min-width: $screen-sm-min) {
-    float: right;
+.logo {
+  cursor: default;
+
+  &:hover {
+    background-color: $grey-bg-color;
+    color: $text-color ;
   }
+}
+
+nav {
   ul {
-    // flexbox is better than grid for distributing an unknown qty of children
-    display: flex;
-    li {
-      margin-right: 2rem;
-      display: inline-block;
-      @media screen and (min-width: $screen-sm-min) {
-        margin-right: 0;
-      }
-      a,
-      a:visited {
-        color: white;
-        text-decoration: none;
-        border: 0;
-        @media screen and (min-width: $screen-sm-min) {
-          padding: 1rem;
-        }
-        &[data-current="current page"] {
-          // you can add an active nav item style here
-        }
-      }
-      a:hover {
-        color: white;
-      }
+    border-top: 1px solid $text-color;
+    margin-bottom: 17px;
+  }
+
+  li {
+    border-left: 1px solid $text-color;
+    border-right: 1px solid $text-color;
+    border-top: 0px;
+    border-bottom: 1px solid $text-color;
+    color: $text-color;
+    padding: 15px;
+    text-align: center;
+    cursor: pointer;
+    text-decoration: none;
+
+    &:hover {
+      background-color: $text-color;
+      color: $grey-bg-color;
+    }
+
+    &[data-current="current page"] {
+      background-color: $text-color;
+      color: $grey-bg-color;
+      border-bottom: 1px solid $text-color;
     }
   }
 }
 
 // our main content wrapper, the width scales with font size
 main {
-  width: 100%;
-  max-width: 52rem;
   margin-right: auto;
   margin-left: auto;
-  grid-column: main;
-  display: grid;
-  padding-top: 8rem;
-  padding-bottom: 8rem;
+  margin-bottom: 17px;
+  padding: 1rem;
+  border: 1px solid $text-color;
+  
   @media screen and (min-width: $screen-md-min) {
     align-content: start;
   }
@@ -169,13 +175,15 @@ html[data-current="contact"] main > form {
 }
 
 footer {
-  grid-column: full;
-  display: grid;
-  grid-template-columns:
-    [full-start] minmax(1rem, 1fr)
-    [main-start] minmax(0, 50rem) [main-end]
-    minmax(1rem, 1fr) [full-end];
+  color: rgb(131, 131, 131);
   background-color: $grey-bg-color;
+  margin-bottom: 20px;
+
+  a, a:visited {
+    color: rgb(131, 131, 131) !important;
+    text-decoration: underline;
+  }
+
   > small {
     grid-column: main;
   }
