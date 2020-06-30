@@ -4,13 +4,13 @@ title: Contact
 permalink: /contact
 section: contact
 intro_paragraph: |-
-  **Phone:**
+  **Phone:** [(308) 470-5484](tel:+1-308-470-5484)
 
-  [(308) 470-5484](tel:+1-308-470-5484)
 
-  **Email:**
 
-  garrette@debordcounseling.com
+  **Email:** garrette@debordcounseling.com
+
+
 
   **Location:**
 
