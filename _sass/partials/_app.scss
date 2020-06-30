@@ -179,7 +179,7 @@ footer {
   background-color: $grey-bg-color;
   margin-bottom: 20px;
 
-  a, a:visited {
+  a, a:visited, a:hover {
     color: rgb(131, 131, 131) !important;
     text-decoration: underline;
   }
