@@ -12,11 +12,13 @@ intro_paragraph: |-
   * Solution Focused Brief (SFBT)
   * Trauma Focused
 
+
   ##### Specialties
 
   * Anxiety
   * Trauma and PTSD
   * Addiction
+
 
   ##### Issues
 
