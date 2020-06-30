@@ -4,8 +4,6 @@ title: Services
 permalink: /services
 section: "{{name}}"
 intro_paragraph: |-
-  #### Treatment Approach
-
   ##### Types of Therapy
 
   * Dialectical (DBT)
