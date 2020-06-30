@@ -1,5 +1,3 @@
-# specify main menu items here
-
 items:
   - name: DeBord Counseling
     url: /
@@ -7,3 +5,5 @@ items:
     url: /services
   - name: Resouces
     url: /resources
+  - name: Contact
+    url: /contact
