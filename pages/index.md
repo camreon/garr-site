@@ -5,7 +5,7 @@ permalink: /
 section: home
 intro_paragraph: "Garrette DeBord LPC, LADAC II is a licensed therapist
   providing services to Millenials and LGBTQ+ individuals in Tennessee. Located
-  in Nashville, TN. Pronouns : He/Him 🏳️‍🌈"
+  in Nashville, TN. Pronouns : He/Him"
 ---
 Life can have us feeling stuck and going in circles. It's during these times we may decide we need a place to sit figure out where to go next. As a therapist it has been my honor to walk with individuals during these moments and to witness healing and positive change. Through my experience in the mental health and substance use fields, I have become passionate about helping those in the LGBTQ+ community navigate challenges and transitions specifically those related to trauma and how this effects their relationships with themselves and with others.
 
