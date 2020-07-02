@@ -10,7 +10,6 @@ intro_paragraph: ""
   * Dialectical (DBT)
   * Existential
   * Psychodynamic
-  * Solution Focused Brief (SFBT)
   * Trauma Focused
 * ##### Specialties
 
@@ -24,7 +23,6 @@ intro_paragraph: ""
   * Emotional Disturbance
   * Grief
 
-<!---->
 
 * ### Finances
 
