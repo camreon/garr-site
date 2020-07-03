@@ -9,8 +9,6 @@ intro_paragraph: ""
 
 **Email:** garrettedebord@debordcounseling.com
 
-**Location:**
-
-504 Autumn Springs Court\
-Suite 28\
-Franklin, Tennessee 37067
+**Location:** 504 Autumn Springs Court\
+                  Suite 28\
+                  Franklin, Tennessee 37067
