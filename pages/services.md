@@ -22,10 +22,8 @@ intro_paragraph: ""
   * Depression
   * Emotional Disturbance
   * Grief
-
-
 * ### Finances
 
-  * **Cost per Session:** $90 - $120
+  * **Cost per Session:** $80 - $130
   * **Sliding Scale:** Yes
   * Pay By: Cash, Discover, Mastercard, Venmo, Visa
